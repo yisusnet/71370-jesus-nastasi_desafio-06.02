@@ -1,0 +1,397 @@
+/* ?fjalla-one-regular 
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+
+
+? jersey-10-regular 
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+   */
+
+/*  ?PALETA DE COLORES COOLORS.CO  (https://coolors.co/f72585-7209b7-3a0ca3-4361ee-4cc9f0)
+#f72585 rose
+#7209b7 Grape
+#3a0ca3  Zaffre
+#4361ee  neon blue
+#4cc9f0 Vivid sky blue
+ */
+
+:root {
+  --color-rose: #f72585;
+  --color-Grape: #7209b7;
+  --color-Zaffre: #3a0ca3;
+  --color-neon-blue: #4361ee;
+  --color-Vivid-sky-blue: #4cc9f0;
+}
+
+body {
+  margin: 20px;
+  background-image: url(/ai-generated-8705083.webp);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+main {
+  padding: 50px;
+  background-color: #390ca34d;
+  border-radius: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 50px;
+  letter-spacing: 10px;
+  text-shadow: 2px 2px 0 var(--color-rose);
+  margin-bottom: 20px;
+  text-align: center;
+  color: var(--color-Zaffre);
+  font-family: 'Jersey 10', sans-serif;
+  font-weight: 400;
+}
+
+h1-1 {
+  display: flex;
+  align-items: center;
+}
+
+.fieldset-1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--color-Zaffre);
+  text-shadow: -2px -2px 0 aliceblue, 2px -2px 0 aliceblue, -2px 2px 0 aliceblue,
+    2px 2px 0 aliceblue;
+  background-image: url(/ai-generated-8639839.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  border-radius: 300px 300px 0 0;
+  width: 100%;
+  max-width: 700px;
+}
+
+.nombre {
+  text-align: center;
+}
+
+.apellido {
+  text-align: center;
+}
+
+.documento {
+  text-align: center;
+}
+
+.nacionalidad {
+  text-align: center;
+}
+
+.sexo1 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.fieldset-2 {
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  border-radius: 5px;
+  color: var(--color-Zaffre);
+  text-shadow: -2px -2px 0 aliceblue, 2px -2px 0 aliceblue, -2px 2px 0 aliceblue,
+    2px 2px 0 aliceblue;
+  letter-spacing: 5px;
+  background-image: url(/woman-8696271.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 700px;
+}
+
+.telefono {
+  text-align: start;
+}
+
+label[for='lbl-telefono'] {
+  display: block;
+}
+.email {
+  text-align: start;
+}
+.fieldset-3 {
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 1px;
+  color: var(--color-Zaffre);
+  text-shadow: -2px -2px 0 aliceblue, 2px -2px 0 aliceblue, -2px 2px 0 aliceblue,
+    2px 2px 0 aliceblue;
+  font-size: 15px;
+  background-image: url(/androide-acostado1111.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  border-radius: 0 0 300px 300px;
+  width: 100%;
+  max-width: 700px;
+  max-height: 600px;
+  margin-bottom: 20px;
+  padding-bottom: 120px;
+}
+
+.p-actividades1 {
+  font-size: 25px;
+}
+
+.p-actividades2 {
+  font-size: 20px;
+  text-align: right;
+  margin-right: 30px;
+}
+
+.sede-palermo {
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: -40px;
+}
+
+.sede-rosario {
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: -40px;
+}
+
+.div-checkbox-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-checkbox-label2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+legend {
+  font-size: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.legend-2 {
+  text-align: right;
+  font-size: 30px;
+}
+
+.legend-3 {
+  text-align: right;
+  font-size: 30px;
+}
+
+label {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-size: cover;
+  font-size: 25px;
+  text-shadow: -1px -1px 0 aliceblue, 1px -1px 0 aliceblue, 1px 1px 0 aliceblue,
+    1px 1px 0 aliceblue;
+}
+
+input {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  height: 35px;
+  width: 300px;
+  text-align: center;
+}
+
+select {
+  height: 35px;
+  border-radius: 10px;
+  width: 300px;
+  margin-bottom: 10px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 15px;
+}
+
+.textarea-1 {
+  border-radius: 10px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 15px;
+}
+
+.textarea-2 {
+  width: 100%;
+  max-width: 600px;
+  max-height: 100px;
+  font-size: 15px;
+  font-family: 'Fjalla One', sans-serif;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+label[for='lbl-resena'] {
+  display: block;
+}
+
+textarea:focus {
+  background-color: #4cc9f0;
+}
+
+hr {
+  border: none;
+  padding: 0px;
+  text-align: center;
+}
+
+hr:after {
+  content: '\1F3CB\1F938\1F3CB\1F938\1F3CB';
+  font-size: 35px;
+  padding: 0px;
+  line-height: 45px;
+  letter-spacing: 50px;
+  text-shadow: 0px 0px 0 black, 0px 0px 0 black, 10px 0px 0 black,
+    0px 0px 0 black;
+}
+
+label[for='lbl-femenino'] {
+  margin-left: -120px;
+}
+
+label[for='lbl-Masculino'] {
+  margin-left: -120px;
+}
+label[for='lbl-Otro'] {
+  margin-left: -120px;
+}
+
+button {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  border: solid 5px var(--color-Grape);
+  border-radius: 10px;
+  background-color: #3a0ca3;
+  color: aliceblue;
+  font-weight: bold;
+}
+button:focus {
+  background-color: #4cc9f0;
+  color: #3a0ca3;
+}
+
+.button-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-campo-obligatorio {
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: -1px -1px 0 aliceblue, 1px -1px 0 aliceblue, 1px 1px 0 aliceblue,
+    1px 1px 0 aliceblue;
+  font-size: 30px;
+  margin-top: -10px;
+}
+
+input {
+  font-size: 17px;
+}
+input:focus {
+  background-color: #4cc9f0;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.input-1 {
+  width: 250px;
+  height: 25px;
+}
+
+input[type='checkbox'] {
+  width: 18px;
+}
+
+input[name='Nombre'] {
+  background-color: rgba(0, 0, 0, 0.432);
+  color: white;
+}
+
+input[name='Apellido'] {
+  background-color: rgba(0, 0, 0, 0.432);
+  color: white;
+}
+
+input[name='Documento'] {
+  background-color: rgba(0, 0, 0, 0.432);
+  color: white;
+}
+
+input[name='Nombre'] {
+  background-color: rgba(0, 0, 0, 0.432);
+  color: white;
+}
+
+input[name='Telefono'] {
+  background-color: rgba(0, 0, 0, 0.432);
+  color: white;
+}
+
+input[name='Email'] {
+  background-color: rgba(0, 0, 0, 0.432);
+  color: white;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.459);
+  background-color: #390ca38a;
+}
+
+select[name='Nacionalidad'] {
+  background-color: rgba(0, 0, 0, 0.432);
+  color: white;
+}
+
+textarea[name='Resena-personal'] {
+  background-color: rgba(0, 0, 0, 0.432);
+  color: white;
+  border-radius: 10px;
+}
+.fieldset-1:focus-within {
+  background-image: url(/ai-generated-863983911111.webp);
+}
+
+.fieldset-1:focus-within legend,
+legend:focus-within {
+  background-color: #390ca354;
+}
+
+.fieldset-2:focus-within {
+  background-image: url(/woman-8696271222222222.webp);
+}
+
+.fieldset-2:focus-within legend,
+legend:focus-within {
+  background-color: #390ca354;
+}
+
+.fieldset-3:focus-within {
+  background-image: url(/androide-acostado1.webp);
+}
+
+.fieldset-3:focus-within legend,
+legend:focus-within {
+  background-color: #390ca354;
+}
