@@ -6,7 +6,7 @@
 ## Netlify
 1): https://clever-druid-928827.netlify.app/
 2): https://resonant-hamster-45f7a4.netlify.app/
-3): https://662980736f011206ba65876e--aquamarine-cuchufli-a591f4.netlify.app/
+3): https://teal-froyo-3ff763.netlify.app/
 
 ## Github
 
